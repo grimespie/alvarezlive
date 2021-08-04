@@ -1,0 +1,441 @@
+
+@media only screen and (max-width: 1500px) {
+    .video-tile .artist {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+    .video-tile .song {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    .video-tile img {
+        width: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    
+    .col-m-1, .col-m-2, .col-m-3, .col-m-4, .col-m-5, .col-m-6, .col-m-7, .col-m-8, .col-m-9, .col-m-10, .col-m-11, .col-m-12 {
+    	position: relative;
+    	min-height: 1px;
+    	padding-right: 15px;
+    	padding-left: 15px;
+    }
+    
+    .col-m-show {
+        display: block;
+    }
+    
+    .col-m-1,
+    .col-m-2,
+    .col-m-3,
+    .col-m-4,
+    .col-m-5,
+    .col-m-6,
+    .col-m-7,
+    .col-m-8,
+    .col-m-9,
+    .col-m-10,
+    .col-m-11,
+    .col-m-12 {
+        float: left;
+    }
+    
+    .col-m-12 {
+    	width: 100%;
+    }
+    
+    .col-m-11 {
+      width: 91.66666667%;
+    }
+    
+    .col-m-10 {
+      width: 83.33333333%;
+    }
+    
+    .col-m-9 {
+      width: 75%;
+    }
+    
+    .col-m-8 {
+      width: 66.66666667%;
+    }
+    
+    .col-m-7 {
+      width: 58.33333333%;
+    }
+    
+    .col-m-6 {
+      width: 50%;
+    }
+    
+    .col-m-5 {
+      width: 41.66666667%;
+    }
+    
+    .col-m-4 {
+      width: 33.3%;
+    }
+    
+    .col-m-3 {
+      width: 25%;
+    }
+    
+    .col-m-2 {
+      width: 16.66666667%;
+    }
+    
+    .col-m-1 {
+      width: 8.33333333%;
+    }
+    
+    .col-m-center {
+    	text-align: center;
+    }
+    
+    .col-m-right {
+    		text-align: right;
+    }
+    
+    #sidebar {
+        width: 100%;
+        z-index: 100;
+        text-align: center;
+        display: none;
+    }
+    
+    #main {
+        margin-left: 0;
+        margin-top: 80px;
+    }
+    
+    #header {
+        height: 80px;
+    }
+    
+    #logo-beta, #logo {
+        margin-bottom: 10px;
+    }
+    
+    #page-home h1 {
+        font-size: 24px;
+    }
+    
+    #page-home h1 img {
+        width: 220px;
+    }
+    
+    .home-links .home-link a {
+        font-size: 18px;
+    }
+    
+    .home-links .home-link {
+        border-right: 1px solid #a64c23;
+    }
+    
+    #page-home h2 {
+        font-size: 24px;
+    }
+    
+    #videos-title h1, #video-title h1, #page-create-profile h1, #page-upload h1, #page-video.page-upload h1, #page-admin h1 {
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+    
+    #video-title h2 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    
+    .video-tile-contents {
+        opacity: 1 !important;
+    }
+    
+    #videos-title, #page-video, #page-create-profile, #page-upload, #page-admin {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    #videos-title h1, #video-title h1, #page-create-profile h1, #page-upload h1, #page-video.page-upload h1, #page-admin h1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #video-title h2 {
+        margin-bottom: 20px;
+    }
+    
+    #profile-user-control .button {
+        margin-bottom: 15px;
+    }
+    
+    #header .container {
+        padding: 15px 15px;
+    }
+    
+    .header-navigation .button {
+        display: block;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+    
+    .header-navigation {
+        display: none;
+    }
+    
+    #page-create-profile .right-column input, #page-upload .right-column input, #page-upload .right-column textarea, #page-upload .right-column select, #page-create-profile .right-column select, .file-upload-wrapper {
+        margin-right: 10%;
+    }
+    
+    #page-upload .upload-box img {
+        width: 30px;
+        height: auto;
+        margin-bottom: 10px;
+        margin-top: 35px;
+    }
+    
+    #page-upload .upload-box.import-youtube img {
+        width: 38px;
+    }
+    
+    #page-upload .upload-box h3 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .full-page {
+        height: initial !important;
+    }
+    
+    .video-tile-contents {
+        padding: 20px;
+    }
+    
+    #main-profile-wrapper {
+        padding-right: 0;
+        border-right: none;
+    }
+    
+    #profile-header p.bio {
+        min-height: 0;
+    }
+    
+    #sort-videos {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    #video-details .person, #video-details .views, #video-details .likes, #video-details .comments, #video-details .model {
+        margin-right: 25px;
+    }
+    
+    #video-details img {
+        margin-right: 5px;
+    }
+    
+    #video-details .model + .action {
+        clear: both;
+    }
+    
+    #video-details .action {
+        float: left;
+        margin-top: 30px;
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    
+    #video-details .action img {
+        margin-left: 0;
+        margin-right: 8px;
+    }
+    
+    .comment-right h3 span {
+        font-size: 13px;
+        display: block;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    
+    .comment-right h3 {
+        line-height: 16px;
+    }
+    
+    .video-comment p {
+        font-size: 14px;
+    }
+    
+    .comment-left {
+        width: 40px;
+    }
+    
+    .comment-right {
+        margin-left: 50px;
+    }
+    
+}
+
+@media only screen and (max-width: 800px) {
+    #about-slider-thumbs .slider-thumb {
+        width: 100%;
+        float: none;
+    }
+    
+    .video-tile img {
+        display: none;
+    }
+    
+    .video-tile .artist {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .video-tile .song {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .videos-full-width .video {
+        width: 50%;
+    }
+    
+    #profile-user-control {
+        margin-top: 40px;
+        text-align: center;
+        float: left;
+    }
+    
+    .alvarez-logo {
+        width: 200px;
+    }
+    
+    #about-section-1 h2, #about-section-1 h3, #about-section-2 h2, #about-section-2 h3, #about-section-3 h2, #about-section-3 h3, #about-section-4 h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .slide-overlay img {
+        display: none;
+    }
+    
+    #about-section-2 h4 {
+        display: none;
+    }
+    
+    #about-section-2 .slide-overlay p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .about-down-arrow {
+        bottom: 20px;
+    }
+    
+    .about-down-arrow img {
+        width: 50px;
+    }
+    
+    #video-details .views {
+        clear: both;
+    }
+    
+    #video-details .views, #video-details .likes, #video-details .comments, #video-details .model {
+        margin-top: 30px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .col-s-1, .col-s-2, .col-s-3, .col-s-4, .col-s-5, .col-s-6, .col-s-7, .col-s-8, .col-s-9, .col-s-10, .col-s-11, .col-s-12 {
+    	position: relative;
+    	min-height: 1px;
+    	padding-right: 15px;
+    	padding-left: 15px;
+    }
+    
+    .col-s-show {
+        display: block;
+    }
+    
+    .col-s-1,
+    .col-s-2,
+    .col-s-3,
+    .col-s-4,
+    .col-s-5,
+    .col-s-6,
+    .col-s-7,
+    .col-s-8,
+    .col-s-9,
+    .col-s-10,
+    .col-s-11,
+    .col-s-12 {
+        float: left;
+    }
+    
+    .col-s-12 {
+    	width: 100%;
+    }
+    
+    .col-s-11 {
+      width: 91.66666667%;
+    }
+    
+    .col-s-10 {
+      width: 83.33333333%;
+    }
+    
+    .col-s-9 {
+      width: 75%;
+    }
+    
+    .col-s-8 {
+      width: 66.66666667%;
+    }
+    
+    .col-s-7 {
+      width: 58.33333333%;
+    }
+    
+    .col-s-6 {
+      width: 50%;
+    }
+    
+    .col-s-5 {
+      width: 41.66666667%;
+    }
+    
+    .col-s-4 {
+      width: 33.3%;
+    }
+    
+    .col-s-3 {
+      width: 25%;
+    }
+    
+    .col-s-2 {
+      width: 16.66666667%;
+    }
+    
+    .col-s-1 {
+      width: 8.33333333%;
+    }
+    
+    .col-s-center {
+    	text-align: center;
+    }
+    
+    .col-s-right {
+    		text-align: right;
+    }
+    
+    .videos-full-width .video {
+        width: 100%;
+    }
+    
+    #sort-videos {
+        margin-top: 10px;
+    }
+}
